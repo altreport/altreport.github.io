@@ -1,0 +1,55 @@
+{
+ "season": 11,
+ "today": "2026-11-21",
+ "sets": 5,
+ "schedule": null,
+ "deeplol_matched": 5,
+ "issues": [
+  {
+   "kind": "입력",
+   "level": "참고",
+   "where": "R1 SSG vs FB (80)",
+   "msg": "POG가 입력되지 않았어요"
+  },
+  {
+   "kind": "입력",
+   "level": "참고",
+   "where": "R1 SSG vs FB (120)",
+   "msg": "POG가 입력되지 않았어요"
+  },
+  {
+   "kind": "입력",
+   "level": "참고",
+   "where": "R1 SSG vs FB (150)",
+   "msg": "POG가 입력되지 않았어요"
+  },
+  {
+   "kind": "이름",
+   "level": "경고",
+   "where": "'SPACECAT'",
+   "msg": "로스터에 없는 이름 — 1세트 (R1 FB). 오타거나 로스터 미등록"
+  },
+  {
+   "kind": "이름",
+   "level": "경고",
+   "where": "'PATE'",
+   "msg": "로스터에 없는 이름 — 1세트 (R1 FB). 오타거나 로스터 미등록"
+  },
+  {
+   "kind": "이름",
+   "level": "경고",
+   "where": "'EOMTI'",
+   "msg": "로스터에 없는 이름 — 1세트 (R1 FB). 오타거나 로스터 미등록"
+  },
+  {
+   "kind": "이름",
+   "level": "경고",
+   "where": "'SBAE'",
+   "msg": "로스터에 없는 이름 — 1세트 (R1 FB). 오타거나 로스터 미등록"
+  }
+ ],
+ "summary": {
+  "입력": 3,
+  "이름": 4
+ }
+}
