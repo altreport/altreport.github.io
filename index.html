@@ -748,7 +748,7 @@ let LASTR = null;
 // 공개 사이트 S11: 프리뷰도 따로 가는 페이지가 아니라 ‹ › 맨 앞 칸 (형 11-21). 같은 사이트의 /preview/ 를 이 자리에 끼워 보여 줌
 const PRE = SHARE && +D.season===11 && location.hostname==='altreport.github.io'; let PRE_ON = false;   // 아티팩트에선 다른 사이트를 못 끼움
 function showPre(on){
-  PRE_ON = !!on; $('#preWrap').hidden = !PRE_ON; $('main.wrap').hidden = PRE_ON; $('#title').hidden = PRE_ON; $('#hsub').hidden = PRE_ON;
+  PRE_ON = !!on; $('#preWrap').hidden = !PRE_ON; $('main.wrap').hidden = PRE_ON; $('#title').hidden = PRE_ON; $('#hsub').hidden = PRE_ON; $('.navrow').hidden = PRE_ON;   // 개요·순위·경기 탭은 리포트 것
   if(PRE_ON){ const f = $('#preFrame'); if(!f.src) f.src = 'https://altreport.github.io/preview/?embed=1';
     const fit = ()=>{ try{ const d = f.contentDocument; if(d && d.body) f.style.height = d.documentElement.scrollHeight + 'px'; }catch(e){} };
     f.onload = ()=>{ fit(); try{ new ResizeObserver(fit).observe(f.contentDocument.body); }catch(e){} }; fit(); window.scrollTo(0,0); }
