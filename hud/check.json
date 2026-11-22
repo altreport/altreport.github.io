@@ -1,9 +1,9 @@
 {
  "season": 11,
- "today": "2026-11-21",
- "sets": 5,
+ "today": "2026-11-22",
+ "sets": 11,
  "schedule": null,
- "deeplol_matched": 5,
+ "deeplol_matched": 11,
  "issues": [
   {
    "kind": "입력",
@@ -24,32 +24,110 @@
    "msg": "POG가 입력되지 않았어요"
   },
   {
+   "kind": "입력",
+   "level": "참고",
+   "where": "R1 FB vs GST (150)",
+   "msg": "POG가 입력되지 않았어요"
+  },
+  {
+   "kind": "입력",
+   "level": "참고",
+   "where": "R1 FB vs GST (120)",
+   "msg": "POG가 입력되지 않았어요"
+  },
+  {
+   "kind": "입력",
+   "level": "참고",
+   "where": "R1 FB vs GST (195)",
+   "msg": "POG가 입력되지 않았어요"
+  },
+  {
+   "kind": "입력",
+   "level": "참고",
+   "where": "R1 GNS vs SSG (195)",
+   "msg": "POG가 입력되지 않았어요"
+  },
+  {
+   "kind": "입력",
+   "level": "참고",
+   "where": "R1 GNS vs SSG (150)",
+   "msg": "POG가 입력되지 않았어요"
+  },
+  {
+   "kind": "입력",
+   "level": "참고",
+   "where": "R1 GNS vs SSG (120)",
+   "msg": "POG가 입력되지 않았어요"
+  },
+  {
    "kind": "이름",
    "level": "경고",
    "where": "'SPACECAT'",
-   "msg": "로스터에 없는 이름 — 1세트 (R1 FB). 오타거나 로스터 미등록"
+   "msg": "로스터에 없는 이름 — 2세트 (R1 FB). 오타거나 로스터 미등록"
   },
   {
    "kind": "이름",
    "level": "경고",
    "where": "'PATE'",
-   "msg": "로스터에 없는 이름 — 1세트 (R1 FB). 오타거나 로스터 미등록"
+   "msg": "로스터에 없는 이름 — 2세트 (R1 FB). 오타거나 로스터 미등록"
   },
   {
    "kind": "이름",
    "level": "경고",
    "where": "'EOMTI'",
-   "msg": "로스터에 없는 이름 — 1세트 (R1 FB). 오타거나 로스터 미등록"
+   "msg": "로스터에 없는 이름 — 2세트 (R1 FB). 오타거나 로스터 미등록"
   },
   {
    "kind": "이름",
    "level": "경고",
    "where": "'SBAE'",
+   "msg": "로스터에 없는 이름 — 2세트 (R1 FB). 오타거나 로스터 미등록"
+  },
+  {
+   "kind": "이름",
+   "level": "경고",
+   "where": "'gank'",
+   "msg": "로스터에 없는 이름 — 2세트 (R1 GST). 오타거나 로스터 미등록"
+  },
+  {
+   "kind": "이름",
+   "level": "경고",
+   "where": "'BERRY'",
+   "msg": "로스터에 없는 이름 — 1세트 (R1 FB). 오타거나 로스터 미등록"
+  },
+  {
+   "kind": "이름",
+   "level": "경고",
+   "where": "'sep'",
+   "msg": "로스터에 없는 이름 — 1세트 (R1 GST). 오타거나 로스터 미등록"
+  },
+  {
+   "kind": "이름",
+   "level": "경고",
+   "where": "'CHUANI'",
+   "msg": "로스터에 없는 이름 — 1세트 (R1 FB). 오타거나 로스터 미등록"
+  },
+  {
+   "kind": "이름",
+   "level": "경고",
+   "where": "'WELCOMELEE'",
+   "msg": "로스터에 없는 이름 — 1세트 (R1 FB). 오타거나 로스터 미등록"
+  },
+  {
+   "kind": "이름",
+   "level": "경고",
+   "where": "'Stop'",
+   "msg": "로스터에 없는 이름 — 1세트 (R1 FB). 오타거나 로스터 미등록"
+  },
+  {
+   "kind": "이름",
+   "level": "경고",
+   "where": "'hun'",
    "msg": "로스터에 없는 이름 — 1세트 (R1 FB). 오타거나 로스터 미등록"
   }
  ],
  "summary": {
-  "입력": 3,
-  "이름": 4
+  "입력": 9,
+  "이름": 11
  }
 }
