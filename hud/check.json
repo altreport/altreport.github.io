@@ -1,10 +1,16 @@
 {
  "season": 11,
- "today": "2026-11-26",
+ "today": "2026-11-27",
  "sets": 11,
  "schedule": 24,
- "deeplol_matched": 11,
+ "deeplol_matched": 8,
  "issues": [
+  {
+   "kind": "누락",
+   "level": "경고",
+   "where": "R1 FB vs GST",
+   "msg": "2026-11-21 시리즈 기록이 하나도 없어요 (3세트 일정, 2승 먼저인 쪽이 승리)"
+  },
   {
    "kind": "입력",
    "level": "참고",
@@ -24,24 +30,6 @@
    "msg": "POG가 입력되지 않았어요"
   },
   {
-   "kind": "입력",
-   "level": "참고",
-   "where": "R1 GNS vs SSG (195)",
-   "msg": "POG가 입력되지 않았어요"
-  },
-  {
-   "kind": "입력",
-   "level": "참고",
-   "where": "R1 GNS vs SSG (150)",
-   "msg": "POG가 입력되지 않았어요"
-  },
-  {
-   "kind": "입력",
-   "level": "참고",
-   "where": "R1 GNS vs SSG (120)",
-   "msg": "POG가 입력되지 않았어요"
-  },
-  {
    "kind": "이름",
    "level": "경고",
    "where": "'SPACECAT'",
@@ -51,131 +39,260 @@
    "kind": "이름",
    "level": "경고",
    "where": "'PATE'",
-   "msg": "로스터에 없는 이름 — 2세트 (R1 FB). 오타거나 로스터 미등록"
+   "msg": "로스터에 없는 이름 — 1세트 (R1 FB). 오타거나 로스터 미등록"
   },
   {
    "kind": "이름",
    "level": "경고",
    "where": "'EOMTI'",
-   "msg": "로스터에 없는 이름 — 2세트 (R1 FB). 오타거나 로스터 미등록"
+   "msg": "로스터에 없는 이름 — 1세트 (R1 FB). 오타거나 로스터 미등록"
   },
   {
    "kind": "이름",
    "level": "경고",
    "where": "'SBAE'",
-   "msg": "로스터에 없는 이름 — 2세트 (R1 FB). 오타거나 로스터 미등록"
-  },
-  {
-   "kind": "이름",
-   "level": "경고",
-   "where": "'러 지'",
-   "msg": "로스터에 없는 이름 — 2세트 (R1 FB). 오타거나 로스터 미등록"
-  },
-  {
-   "kind": "이름",
-   "level": "경고",
-   "where": "'SBOM'",
    "msg": "로스터에 없는 이름 — 1세트 (R1 FB). 오타거나 로스터 미등록"
+  },
+  {
+   "kind": "이름",
+   "level": "경고",
+   "where": "'ENJYU'",
+   "msg": "로스터에 없는 이름 — 3세트 (R1 SSG, R2 SSG). 오타거나 로스터 미등록"
+  },
+  {
+   "kind": "이름",
+   "level": "경고",
+   "where": "'TIKI'",
+   "msg": "로스터에 없는 이름 — 2세트 (R2 SSG). 오타거나 로스터 미등록"
+  },
+  {
+   "kind": "이름",
+   "level": "경고",
+   "where": "'NOCHATNOMAP'",
+   "msg": "로스터에 없는 이름 — 1세트 (R2 SSG). 오타거나 로스터 미등록"
+  },
+  {
+   "kind": "이름",
+   "level": "경고",
+   "where": "'HAZE'",
+   "msg": "로스터에 없는 이름 — 1세트 (R2 SSG). 오타거나 로스터 미등록"
+  },
+  {
+   "kind": "이름",
+   "level": "경고",
+   "where": "'YUNSEUL'",
+   "msg": "로스터에 없는 이름 — 1세트 (R2 GST). 오타거나 로스터 미등록"
+  },
+  {
+   "kind": "이름",
+   "level": "경고",
+   "where": "'ROSE HYEON'",
+   "msg": "로스터에 없는 이름 — 1세트 (R2 GST). 오타거나 로스터 미등록"
+  },
+  {
+   "kind": "이름",
+   "level": "경고",
+   "where": "'DONALD'",
+   "msg": "로스터에 없는 이름 — 1세트 (R2 GST). 오타거나 로스터 미등록"
   },
   {
    "kind": "이름",
    "level": "경고",
    "where": "'SUNG'",
-   "msg": "로스터에 없는 이름 — 1세트 (R1 GST). 오타거나 로스터 미등록"
+   "msg": "로스터에 없는 이름 — 1세트 (R2 GST). 오타거나 로스터 미등록"
   },
   {
    "kind": "이름",
    "level": "경고",
-   "where": "'유니유니'",
-   "msg": "로스터에 없는 이름 — 1세트 (R1 GST). 오타거나 로스터 미등록"
+   "where": "'YUNIYUNI'",
+   "msg": "로스터에 없는 이름 — 2세트 (R2 GST). 오타거나 로스터 미등록"
   },
   {
    "kind": "이름",
    "level": "경고",
-   "where": "'GUWON'",
-   "msg": "로스터에 없는 이름 — 2세트 (R1 GST). 오타거나 로스터 미등록"
+   "where": "'ILSAN'",
+   "msg": "로스터에 없는 이름 — 1세트 (R2 SSG). 오타거나 로스터 미등록"
   },
   {
    "kind": "이름",
    "level": "경고",
-   "where": "'애니비아 초보 봇'",
-   "msg": "로스터에 없는 이름 — 1세트 (R1 GST). 오타거나 로스터 미등록"
+   "where": "'SEUNGJAE'",
+   "msg": "로스터에 없는 이름 — 1세트 (R2 GST). 오타거나 로스터 미등록"
   },
   {
    "kind": "이름",
    "level": "경고",
-   "where": "'고양이튀김'",
-   "msg": "로스터에 없는 이름 — 1세트 (R1 FB). 오타거나 로스터 미등록"
+   "where": "'TEM'",
+   "msg": "로스터에 없는 이름 — 2세트 (R1 SSG, R2 GST). 오타거나 로스터 미등록"
   },
   {
    "kind": "이름",
    "level": "경고",
-   "where": "'GANK'",
-   "msg": "로스터에 없는 이름 — 2세트 (R1 GST). 오타거나 로스터 미등록"
+   "where": "'BINARY'",
+   "msg": "로스터에 없는 이름 — 3세트 (R1 SSG, R2 SSG). 오타거나 로스터 미등록"
   },
   {
    "kind": "이름",
    "level": "경고",
-   "where": "'여우꼬리는아홉개'",
-   "msg": "로스터에 없는 이름 — 1세트 (R1 FB). 오타거나 로스터 미등록"
+   "where": "'EUNSU'",
+   "msg": "로스터에 없는 이름 — 2세트 (R1 SSG, R2 SSG). 오타거나 로스터 미등록"
   },
   {
    "kind": "이름",
    "level": "경고",
-   "where": "'LIBRA'",
-   "msg": "로스터에 없는 이름 — 2세트 (R1 GST). 오타거나 로스터 미등록"
+   "where": "'RICHE'",
+   "msg": "로스터에 없는 이름 — 1세트 (R2 GST). 오타거나 로스터 미등록"
   },
   {
    "kind": "이름",
    "level": "경고",
-   "where": "'BERRY'",
-   "msg": "로스터에 없는 이름 — 1세트 (R1 FB). 오타거나 로스터 미등록"
+   "where": "'DOGDOG'",
+   "msg": "로스터에 없는 이름 — 1세트 (R2 SSG). 오타거나 로스터 미등록"
   },
   {
    "kind": "이름",
    "level": "경고",
-   "where": "'TWILIGHT'",
-   "msg": "로스터에 없는 이름 — 2세트 (R1 FB). 오타거나 로스터 미등록"
+   "where": "'HAPPYCAT'",
+   "msg": "로스터에 없는 이름 — 1세트 (R2 SSG). 오타거나 로스터 미등록"
   },
   {
    "kind": "이름",
    "level": "경고",
-   "where": "'LIV'",
-   "msg": "로스터에 없는 이름 — 1세트 (R1 FB). 오타거나 로스터 미등록"
+   "where": "'TIME BANK'",
+   "msg": "로스터에 없는 이름 — 2세트 (R1 SSG, R2 SSG). 오타거나 로스터 미등록"
+  },
+  {
+   "kind": "이름",
+   "level": "경고",
+   "where": "'GILDONG'",
+   "msg": "로스터에 없는 이름 — 1세트 (R2 GST). 오타거나 로스터 미등록"
   },
   {
    "kind": "이름",
    "level": "경고",
    "where": "'HAUN'",
-   "msg": "로스터에 없는 이름 — 1세트 (R1 GST). 오타거나 로스터 미등록"
+   "msg": "로스터에 없는 이름 — 1세트 (R2 GST). 오타거나 로스터 미등록"
   },
   {
    "kind": "이름",
    "level": "경고",
-   "where": "'PULLER'",
-   "msg": "로스터에 없는 이름 — 1세트 (R1 GST). 오타거나 로스터 미등록"
+   "where": "'GUSA'",
+   "msg": "로스터에 없는 이름 — 2세트 (R1 SSG). 오타거나 로스터 미등록"
   },
   {
    "kind": "이름",
    "level": "경고",
-   "where": "'CHUANI'",
-   "msg": "로스터에 없는 이름 — 1세트 (R1 FB). 오타거나 로스터 미등록"
+   "where": "'LUCID'",
+   "msg": "로스터에 없는 이름 — 2세트 (R1 GNS). 오타거나 로스터 미등록"
   },
   {
    "kind": "이름",
    "level": "경고",
-   "where": "'웰컴리'",
-   "msg": "로스터에 없는 이름 — 1세트 (R1 FB). 오타거나 로스터 미등록"
+   "where": "'Hwanbeom'",
+   "msg": "로스터에 없는 이름 — 1세트 (R1 GNS). 오타거나 로스터 미등록"
   },
   {
    "kind": "이름",
    "level": "경고",
-   "where": "'POBY'",
-   "msg": "로스터에 없는 이름 — 1세트 (R1 GST). 오타거나 로스터 미등록"
+   "where": "'HEEYUN'",
+   "msg": "로스터에 없는 이름 — 2세트 (R1 GNS). 오타거나 로스터 미등록"
+  },
+  {
+   "kind": "이름",
+   "level": "경고",
+   "where": "'SAVIOR'",
+   "msg": "로스터에 없는 이름 — 1세트 (R1 SSG). 오타거나 로스터 미등록"
+  },
+  {
+   "kind": "이름",
+   "level": "경고",
+   "where": "'LIMPLAYER'",
+   "msg": "로스터에 없는 이름 — 1세트 (R1 GNS). 오타거나 로스터 미등록"
+  },
+  {
+   "kind": "이름",
+   "level": "경고",
+   "where": "'Asan'",
+   "msg": "로스터에 없는 이름 — 1세트 (R1 GNS). 오타거나 로스터 미등록"
+  },
+  {
+   "kind": "이름",
+   "level": "경고",
+   "where": "'LEESEHEE'",
+   "msg": "로스터에 없는 이름 — 1세트 (R1 SSG). 오타거나 로스터 미등록"
+  },
+  {
+   "kind": "이름",
+   "level": "경고",
+   "where": "'NAN'",
+   "msg": "로스터에 없는 이름 — 1세트 (R1 SSG). 오타거나 로스터 미등록"
+  },
+  {
+   "kind": "이름",
+   "level": "경고",
+   "where": "'KID'",
+   "msg": "로스터에 없는 이름 — 1세트 (R1 GNS). 오타거나 로스터 미등록"
+  },
+  {
+   "kind": "이름",
+   "level": "경고",
+   "where": "'HONGTOSS'",
+   "msg": "로스터에 없는 이름 — 1세트 (R1 GNS). 오타거나 로스터 미등록"
+  },
+  {
+   "kind": "이름",
+   "level": "경고",
+   "where": "'TTANGKONG'",
+   "msg": "로스터에 없는 이름 — 1세트 (R1 SSG). 오타거나 로스터 미등록"
+  },
+  {
+   "kind": "이름",
+   "level": "경고",
+   "where": "'HOHO'",
+   "msg": "로스터에 없는 이름 — 1세트 (R1 GNS). 오타거나 로스터 미등록"
+  },
+  {
+   "kind": "deeplol",
+   "level": "경고",
+   "where": "deeplol 'ALT S11 R1 1'",
+   "msg": "포털에 이 경기 기록이 없어요 (R1 1세트, deeplol에만 있음)"
+  },
+  {
+   "kind": "deeplol",
+   "level": "경고",
+   "where": "deeplol 'ALT S11 R1 2'",
+   "msg": "포털에 이 경기 기록이 없어요 (R1 2세트, deeplol에만 있음)"
+  },
+  {
+   "kind": "deeplol",
+   "level": "경고",
+   "where": "deeplol 'ALT S11 R1 3'",
+   "msg": "포털에 이 경기 기록이 없어요 (R1 3세트, deeplol에만 있음)"
+  },
+  {
+   "kind": "참고",
+   "level": "참고",
+   "where": "R2 SSG vs GST (150)",
+   "msg": "deeplol 기록 없음 (사설방 등) → 카페 결과 스크린샷으로 보완 필요"
+  },
+  {
+   "kind": "참고",
+   "level": "참고",
+   "where": "R2 SSG vs GST (195)",
+   "msg": "deeplol 기록 없음 (사설방 등) → 카페 결과 스크린샷으로 보완 필요"
+  },
+  {
+   "kind": "참고",
+   "level": "참고",
+   "where": "R2 SSG vs GST (120)",
+   "msg": "deeplol 기록 없음 (사설방 등) → 카페 결과 스크린샷으로 보완 필요"
   }
  ],
  "summary": {
-  "입력": 6,
-  "이름": 22
+  "누락": 1,
+  "입력": 3,
+  "이름": 37,
+  "deeplol": 3,
+  "참고": 3
  }
 }
