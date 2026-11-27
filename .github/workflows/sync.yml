@@ -1,0 +1,46 @@
+# 리포트 자동 갱신: 리포트 원본 저장소(비공개)의 최신 공개용 페이지를 이 사이트에 맞춰 넣음.
+# 원본은 읽기 전용 열쇠로만 받고, 공개용 파일만 옮김 (원본의 scripts/site_sync.sh 가 검사 후 복사).
+name: 리포트 자동 갱신
+on:
+  schedule:
+    - cron: '45 8 * * *'    # 매일 17:45 (한국 시간) — 리포트 갱신(17:23) 직후
+    - cron: '45 10 * * *'   # 매일 19:45 — 위가 늦거나 놓쳤을 때 한 번 더
+    - cron: '45 19 * * *'   # 매일 04:45 — 밤에 고친 것 반영
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: sync
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: 사이트 받기
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: git clone -q --depth 1 "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" site
+      - name: 리포트 원본 받기
+        env:
+          KEY: ${{ secrets.ALT_DEPLOY_KEY }}
+          REPO: ${{ secrets.ALT_REPO }}
+        run: |
+          mkdir -p ~/.ssh
+          printf '%s\n' "$KEY" > ~/.ssh/alt_key
+          chmod 600 ~/.ssh/alt_key
+          ssh-keyscan -t ed25519 github.com >> ~/.ssh/known_hosts 2>/dev/null
+          GIT_SSH_COMMAND="ssh -i ~/.ssh/alt_key -o IdentitiesOnly=yes" git clone -q --depth 1 "$REPO" src 2>/dev/null || { echo "원본을 받지 못함"; rm -f ~/.ssh/alt_key; exit 1; }
+          rm -f ~/.ssh/alt_key
+      - name: 공개용 페이지 맞춰 넣기
+        run: bash src/scripts/site_sync.sh "$GITHUB_WORKSPACE/site" > /dev/null
+      - name: 바뀐 것만 올리기
+        run: |
+          MSG="$(git -C src log -1 --format=%s)"
+          echo "$MSG" | grep -qE '^S[0-9]+ R[0-9]+ 주간 갱신$' || MSG="리포트 자동 갱신"
+          cd site
+          git add -A
+          if git diff --cached --quiet; then echo "바뀐 것 없음"; exit 0; fi
+          git -c user.name="ALT 자동 갱신" -c user.email="actions@users.noreply.github.com" commit -qm "$MSG"
+          git push -q origin HEAD:main
+          echo "올림: $MSG"
